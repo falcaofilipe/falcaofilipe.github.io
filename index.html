@@ -47,7 +47,7 @@ width:100%;
 position:absolute;
 }
 
-/* .facebook-rodape {
+.facebook-rodape {
     margin: -100px 0px 0px 0px;
     float: right;
 }
@@ -60,7 +60,7 @@ position:absolute;
     transition: width .2s;
   }
 
-  .box-imovel {
+  /* .box-imovel {
       font-size: 1.3rem;
       padding: 0 .9rem;
       margin: 1em 1rem;
@@ -70,7 +70,8 @@ position:absolute;
       color: #272F6F;
       border-radius: 2px;
   } */
-    .grid-container {
+
+    /* .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: ;
@@ -84,12 +85,12 @@ position:absolute;
     -ms-grid-columns: 1fr 1fr;
     -ms-grid-rows: ;
     }
-    }
+    } */
 
-    #mapa {
+    /* #mapa {
     height:250px;
     width:100%;
-    }
+    } */
 
 
     .lt-grid-container {
@@ -107,6 +108,16 @@ position:absolute;
     -ms-grid-rows: 1fr;
   }
 
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("img/imperial-palace-residence.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 
@@ -129,12 +140,15 @@ position:absolute;
             <a class="nav-link js-scroll-trigger" href="#about">A Construtora</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link js-scroll-trigger dropdown-toggle" data-toggle="dropdown" href="#dropdown">Portfolio</a>
+            <a class="nav-link js-scroll-trigger dropdown-toggle" data-toggle="dropdown" href="#">Portfolio</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">Obras concluídas</a>
               <a class="dropdown-item" href="#">Em andamento</a>
             </div>
           </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
           </li>
@@ -351,6 +365,7 @@ position:absolute;
             <div class="small text-center text-muted">Copyright &copy; 2019 - </div>
             <div class="small text-center text-muted">Copyright &copy; 2019 - </div>
             <div class="small text-center text-muted">Copyright &copy; 2019 - </div>
+            
           
         </div>
 
@@ -397,7 +412,7 @@ position:absolute;
         }
     }
   })
-    function inicializar() {
+    /* function inicializar() {
       var coordenadas = {lat: -7.114612, lng: -34.859674};
 
       var mapa = new google.maps.Map(document.getElementById('mapa'), {
@@ -410,11 +425,11 @@ position:absolute;
         map: mapa,
         title: 'Meu marcador'
       });
-    }
+    } */
   </script>
 	
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9b2RPDnXbmn08X2v9CZQUxb42fcibjFc&callback=inicializar"
-  type="text/javascript"></script>
+	<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9b2RPDnXbmn08X2v9CZQUxb42fcibjFc&callback=inicializar"
+  type="text/javascript"></script> -->
 
 </body>
 
