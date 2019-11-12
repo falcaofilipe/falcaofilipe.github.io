@@ -1,0 +1,33 @@
+	
+    .map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    header.masthead {
+      padding-top: 10rem;
+      padding-bottom: calc(10rem - 72px);
+      background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("img/imperial-palace-residence.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    .icon {
+        width: 18px;
+        margin-right: 5px;
+        padding-right: 5px;
+        position: relative;
+        top: 3px;
+    }
